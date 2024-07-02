@@ -1,220 +1,230 @@
-.custom-first-name {
-    label {
-      font-weight: bold;
-      color: #ff6347; /* Tomato color */
-    }
+// .custom-first-name {
+//     label {
+//       font-weight: bold;
+//       color: #ff6347; /* Tomato color */
+//     }
   
-    input {
-      border: 2px solid #ff6347;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input {
+//       border: 2px solid #ff6347;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input:focus {
-      border-color: #ff4500; /* OrangeRed color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 10px rgba(255, 69, 0, 0.8); /* Add a glow effect */
-    }
-  }
+//     input:focus {
+//       border-color: #ff4500; /* OrangeRed color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 10px rgba(255, 69, 0, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-last-name {
-    label {
-      font-weight: bold;
-      color: #4682b4; /* SteelBlue color */
-    }
+//   .custom-last-name {
+//     label {
+//       font-weight: bold;
+//       color: #4682b4; /* SteelBlue color */
+//     }
   
-    input {
-      border: 2px solid #4682b4;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input {
+//       border: 2px solid #4682b4;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input:focus {
-      border-color: #4169e1; /* RoyalBlue color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(65, 105, 225, 0.8); /* Add a glow effect */
-    }
-  }
+//     input:focus {
+//       border-color: #4169e1; /* RoyalBlue color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(65, 105, 225, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-email {
-    label {
-      font-weight: bold;
-      color: #6a5acd; /* SlateBlue color */
-    }
+//   .custom-email {
+//     label {
+//       font-weight: bold;
+//       color: #6a5acd; /* SlateBlue color */
+//     }
   
-    input {
-      border: 2px solid #6a5acd;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input {
+//       border: 2px solid #6a5acd;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input:focus {
-      border-color: #483d8b; /* DarkSlateBlue color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(72, 61, 139, 0.8); /* Add a glow effect */
-    }
-  }
+//     input:focus {
+//       border-color: #483d8b; /* DarkSlateBlue color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(72, 61, 139, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-password {
-    label {
-      font-weight: bold;
-      color: #20b2aa; /* LightSeaGreen color */
-    }
+//   .custom-password {
+//     label {
+//       font-weight: bold;
+//       color: #20b2aa; /* LightSeaGreen color */
+//     }
   
-    input {
-      border: 2px solid #20b2aa;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input {
+//       border: 2px solid #20b2aa;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input:focus {
-      border-color: #008b8b; /* DarkCyan color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(0, 139, 139, 0.8); /* Add a glow effect */
-    }
-  }
+//     input:focus {
+//       border-color: #008b8b; /* DarkCyan color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(0, 139, 139, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-gender {
-    label {
-      font-weight: bold;
-      color: #daa520; /* GoldenRod color */
-    }
+//   .custom-gender {
+//     label {
+//       font-weight: bold;
+//       color: #daa520; /* GoldenRod color */
+//     }
   
-    select {
-      border: 2px solid #daa520;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     select {
+//       border: 2px solid #daa520;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    select:focus {
-      border-color: #b8860b; /* DarkGoldenRod color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(184, 134, 11, 0.8); /* Add a glow effect */
-    }
-  }
+//     select:focus {
+//       border-color: #b8860b; /* DarkGoldenRod color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(184, 134, 11, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-terms {
-    .form-check-input {
-      margin-top: 0.5rem;
-    }
+//   .custom-terms {
+//     .form-check-input {
+//       margin-top: 0.5rem;
+//     }
   
-    label {
-      font-weight: bold;
-      color: #ff4500; /* OrangeRed color */
-    }
-  }
+//     label {
+//       font-weight: bold;
+//       color: #ff4500; /* OrangeRed color */
+//     }
+//   }
   
-  .custom-age {
-    label {
-      font-weight: bold;
-      color: #6495ed; /* CornflowerBlue color */
-    }
+//   .custom-age {
+//     label {
+//       font-weight: bold;
+//       color: #6495ed; /* CornflowerBlue color */
+//     }
   
-    input[type="range"] {
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input[type="range"] {
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input[type="range"]:focus {
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(100, 149, 237, 0.8); /* Add a glow effect */
-    }
-  }
+//     input[type="range"]:focus {
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(100, 149, 237, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-birthdate {
-    label {
-      font-weight: bold;
-      color: #8a2be2; /* BlueViolet color */
-    }
+//   .custom-birthdate {
+//     label {
+//       font-weight: bold;
+//       color: #8a2be2; /* BlueViolet color */
+//     }
   
-    input {
-      border: 2px solid #8a2be2;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     input {
+//       border: 2px solid #8a2be2;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    input:focus {
-      border-color: #7b68ee; /* MediumSlateBlue color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(123, 104, 238, 0.8); /* Add a glow effect */
-    }
-  }
+//     input:focus {
+//       border-color: #7b68ee; /* MediumSlateBlue color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(123, 104, 238, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-hobbies {
-    label {
-      font-weight: bold;
-      color: #ff6347; /* Tomato color */
-    }
+//   .custom-hobbies {
+//     label {
+//       font-weight: bold;
+//       color: #ff6347; /* Tomato color */
+//     }
   
-    select {
-      border: 2px solid #ff6347;
-      border-radius: 5px;
-      padding: 0.5rem;
-      transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
-    }
+//     select {
+//       border: 2px solid #ff6347;
+//       border-radius: 5px;
+//       padding: 0.5rem;
+//       transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+//     }
   
-    select:focus {
-      border-color: #ff4500; /* OrangeRed color */
-      outline: none; /* Remove default outline */
-      box-shadow: 0 0 5px rgba(255, 69, 0, 0.8); /* Add a glow effect */
-    }
-  }
+//     select:focus {
+//       border-color: #ff4500; /* OrangeRed color */
+//       outline: none; /* Remove default outline */
+//       box-shadow: 0 0 5px rgba(255, 69, 0, 0.8); /* Add a glow effect */
+//     }
+//   }
   
-  .custom-submit {
-    button {
-      background-color: #32cd32; /* LimeGreen color */
-      border: none;
-      padding: 0.5rem 1rem;
-      color: white;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
+//   .custom-submit {
+//     button {
+//       background-color: #32cd32; /* LimeGreen color */
+//       border: none;
+//       padding: 0.5rem 1rem;
+//       color: white;
+//       font-size: 1rem;
+//       transition: background-color 0.3s;
+//     }
   
-    button:focus {
-      outline: none; /* Remove default outline */
-      background-color: #228b22; /* ForestGreen color */
-    }
-  }
+//     button:focus {
+//       outline: none; /* Remove default outline */
+//       background-color: #228b22; /* ForestGreen color */
+//     }
+//   }
   
-  .custom-reset {
-    button {
-      background-color: #ff8c00; /* DarkOrange color */
-      border: none;
-      padding: 0.5rem 1rem;
-      color: white;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
+//   .custom-reset {
+//     button {
+//       background-color: #ff8c00; /* DarkOrange color */
+//       border: none;
+//       padding: 0.5rem 1rem;
+//       color: white;
+//       font-size: 1rem;
+//       transition: background-color 0.3s;
+//     }
   
-    button:focus {
-      outline: none; /* Remove default outline */
-      background-color: #ff7f50; /* Coral color */
-    }
-  }
+//     button:focus {
+//       outline: none; /* Remove default outline */
+//       background-color: #ff7f50; /* Coral color */
+//     }
+//   }
   
-  .custom-cancel {
-    button {
-      background-color: #dc143c; /* Crimson color */
-      border: none;
-      padding: 0.5rem 1rem;
-      color: white;
-      font-size: 1rem;
-      transition: background-color 0.3s;
-    }
+//   .custom-cancel {
+//     button {
+//       background-color: #dc143c; /* Crimson color */
+//       border: none;
+//       padding: 0.5rem 1rem;
+//       color: white;
+//       font-size: 1rem;
+//       transition: background-color 0.3s;
+//     }
   
-    button:focus {
-      outline: none; /* Remove default outline */
-      background-color: #b22222; /* FireBrick color */
-    }
-  }
+//     button:focus {
+//       outline: none; /* Remove default outline */
+//       background-color: #b22222; /* FireBrick color */
+//     }
+//   }
   
-  .text-danger {
-    color: burlywood !important;
-  }
+//   .text-danger {
+//     color: burlywood !important;
+//   }
+
+json-editor,
+json-editor .jsoneditor,
+json-editor > div,
+json-editor jsoneditor-outer {
+  height: 500px !important;
+}
+.jsoneditor, .ace_editor.ace-jsoneditor {
+  min-height: 80vh;
+}

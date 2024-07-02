@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^18.0.0",
     "@angular/platform-browser-dynamic": "^18.0.0",
     "@angular/router": "^18.0.0",
+    "ang-jsoneditor": "^3.1.1",
     "bootstrap": "^5.3.3",
     "osmosys-form": "file:osmosys-form-0.0.1.tgz",
     "rxjs": "~7.8.0",
